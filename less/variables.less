@@ -25,36 +25,45 @@
 
 // Mobile var
 @media(max-width: 500px) {
-    .wide-boi {
-        width: 25%;
+    .space-div nav a {
+        font-size: .5rem;
     }
-    .no-mobile {
-        display:none;
-    }  
-    .blast {
-        display: flex;
+    #walk-img {
+        border: solid red;
         width: 200%;
+        height: 200%;
+    }
+    #blast {
+        width: 200%;
+        height: 200%;
+        border: solid blue;
+    }
+    #no-mobile {
+        display:none;
     }
     .walk {
         display: flex;
         flex-direction: column-reverse;
         align-content: flex-start;
+        border: 2px solid purple;
         width: 200%;
-        border: 1px solid purple;
-        margin-right: 300px;
-        .walk-img {
-            align-items: flex-end;
-            border: solid red;
-        }
+        padding: 0px 0px;
+        margin: 0px;
+       
         .walk-text {
-            align-items: flex-start;
+            width: 500px;
+            border: solid green;
         }
-    }
-    .blast {
-        size: 200%;
-    }
+    } 
+    h1 {
+        
+        font-size: 300%;
+    .wide-boi {
+        width: 25%;
+    } 
     button {
-        width: 300%;
+        display: block;
+        width: 500px;
     }
 }
-
+}
